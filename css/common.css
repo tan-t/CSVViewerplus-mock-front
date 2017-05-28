@@ -1,0 +1,62 @@
+body{
+  font-size:12px;
+}
+.toolbar{
+  height:72px;
+  display: flex;
+  margin:8px 32px;
+}
+.toolbar button{
+  margin-right:8px;
+}
+.toolbar .btn-label-icon{
+  font-size:32px;
+}
+.toolbar .btn-label-text{
+  font-size:10px;
+}
+.full-width{
+  width:100%;
+}
+.input-group{
+  margin:8px 0px;
+}
+.table-search-area{
+  padding:16px;
+}
+.table-list-area{
+  margin:8px 0px;
+  border:solid 1px #ccc;
+  border-radius: 16px;
+  height:400px;
+}
+.list-content{
+  padding:8px;
+  cursor:pointer;
+  display:flex;
+}
+.list-content.selected{
+  background-color: #337ab7;
+  color: #FFF;
+}
+.query-list-area{
+  margin:8px 0px;
+  border:solid 1px #ccc;
+  height:160px;
+}
+.list-content.header{
+  font-size:10px;
+  border-bottom:solid 1px #eee;
+}
+.list-content .table-column{
+  flex-basis: 240px;
+}
+.list-content .query-column{
+  flex-basis: 320px;
+}
+.basically-hidden{
+  display: none;
+}
+.basically-hidden.visible{
+  display: inherit;
+}
